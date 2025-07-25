@@ -1,0 +1,23 @@
+{
+  "name": "sleep-duration-calculator",
+  "version": "1.0.0",
+  "description": "A Node.js function to calculate sleep duration based on bedtime and wake-up time",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "test": "ts-node src/test.ts",
+    "test:build": "npm run build && node dist/test.js"
+  },
+  "keywords": ["sleep", "duration", "calculator", "time", "typescript"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0"
+  }
+} 
